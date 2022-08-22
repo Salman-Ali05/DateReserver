@@ -1,7 +1,0 @@
-BDD :
-
-Tables :
-    litseReservations : idReservation, libelleReservation // la liste des réservations faites par les clients, qui peuvent eux annuler, deux clients ne peuvent pas avoir la meme reservation
-    clients : idClient, nomClient, prenomClient, dateReservation, dateReserve, heureReserve, idReservation // un client qui peut reserve un rdv à un jour et une heure
-    users : idUser, login, mdp, statut // un user devant se connecter afin de reserver
-    reservations : id, libelleReservation, date, heure // une reservation que les clients peuvent prendre à condition d'avoir au moins une heure différente 
