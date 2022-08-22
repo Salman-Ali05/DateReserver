@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(27, 47, 102);
+}
+
+body {
+    background-color: rgb(4, 4, 65);
+}
+
+#info {
+    padding: 5px;
+    text-decoration: underline;
+    background-color: dodgerblue;
+    font-weight: bold;
+}
+
+#hr{
+    border: solid red 1.5px;
+}
+
+.container {
+    background-color: white;
+    border: solid red 2px;
+    width: 100%;
+    height: 100%;
+    max-width: 65%;
+    max-height: 88%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.choices {
+    margin-bottom: 5px;
+}
+
+#connection {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    border: solid 1px red;
+    width: 50%;
+}
+
+#ou{
+    position: absolute;
+    top: 39%;
+    left: 47%;
+}
+
+#submit {
+    position: absolute;
+    top: 45%;
+    right: 25%;
+    border: solid 1px red;
+    width: 50%;
+}
+
+#rickRoll {
+    position: absolute;
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color :rgb(27, 47, 102);
+}
+
+.inputs, u {
+    background-color: white;
+}
